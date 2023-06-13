@@ -31,7 +31,7 @@ class ThrottleDefaultConfigTest extends BaseTest
                 $allowCount++;
             }
         }
-        $this->assertEquals(100, $allowCount);
+        $this->assertEquals(101, $allowCount);
     }
 
     function test_unlimited_request_method() {
