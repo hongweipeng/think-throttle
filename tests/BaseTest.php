@@ -15,7 +15,7 @@ class BaseTest extends TestCase {
 
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
         // 每次测试完毕都需要清理 runtime cache 目录，避免影响其他单元测试
